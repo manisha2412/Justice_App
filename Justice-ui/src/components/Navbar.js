@@ -47,7 +47,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Post an Incident
               </Link>
             </li>
             <li className='nav-item'>
