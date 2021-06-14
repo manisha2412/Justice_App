@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Justice_App.iml" filepath="$PROJECT_DIR$/.idea/Justice_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Justice-rest/springboot-crud-hibernate-example.iml" filepath="$PROJECT_DIR$/Justice-rest/springboot-crud-hibernate-example.iml" />
+    </modules>
+  </component>
+</project>
