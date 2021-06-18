@@ -31,8 +31,9 @@ function InfinityScroll() {
 
     return (
         <>
-            <h1>Post an Incident</h1>
-            <input type="textarea" value={query} onChange={handleSearch} className='infinityScroll'></input>
+
+            <input type="textarea" value={query} onChange={handleSearch}
+                   className='infinityScroll' placeholder="Enter your value to search"></input>
             {books.map((book, index) => {
                 if (books.length === index + 1) {
                     return <div ref={lastBookElementRef} key={book}>{book}</div>
