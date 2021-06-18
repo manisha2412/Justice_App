@@ -63,7 +63,7 @@ export class NewIncident extends React.Component<{sendData:any}, IAddNewIncident
                                 <tr>
                                     {/*<Form.Group controlId="formBasicEmail">*/}
                                     <td>
-                                        <Form.Label>Incident Topic</Form.Label>
+                                        <Form.Label>Incident Name</Form.Label>
                                     </td>
                                     <td>
                                         <Form.Control className='text-input' type="text" placeholder="Enter topic"
