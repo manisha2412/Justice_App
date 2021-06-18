@@ -1,6 +1,11 @@
 import React from 'react';
 import '../../App.css';
+import ReactPlayer from "react-player"
 
 export default function SignUp() {
-  return <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>;
+  return ( <div class="center-screen">
+    <ReactPlayer
+        url="https://youtu.be/nDgIVseTkuE"
+    />
+  </div>)
 }

@@ -18,8 +18,8 @@ export default function useBookSearch(query, pageNumber) {
     let cancel
     axios({
       method: 'GET',
-      url: 'http://localhost:8080/incidents',
-      // params: { q: query, page: pageNumber },
+      url: 'http://openlibrary.org/search.json',
+      params: { q: query, page: pageNumber },
       cancelToken: new axios.CancelToken(c => cancel = c)
     }).then(res => {
       setBooks(prevBooks => {
