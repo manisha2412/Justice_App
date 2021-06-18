@@ -63,10 +63,10 @@ export class NewIncident extends React.Component<{sendData:any}, IAddNewIncident
                                 <tr>
                                     {/*<Form.Group controlId="formBasicEmail">*/}
                                     <td>
-                                        <Form.Label>Incident Topic Name</Form.Label>
+                                        <Form.Label>Incident Topic</Form.Label>
                                     </td>
                                     <td>
-                                        <Form.Control className='text-input' type="text" placeholder="Enter topic name"
+                                        <Form.Control className='text-input' type="text" placeholder="Enter topic"
                                                       value={this.state.topic}
                                                       onChange={e => this.setState({topic: e.target.value})}
                                         />
@@ -102,7 +102,7 @@ export class NewIncident extends React.Component<{sendData:any}, IAddNewIncident
                                         <Form.Label>Location</Form.Label>
                                     </td>
                                     <td>
-                                        <Form.Control className='text-input' type="text" placeholder="Enter location of  incident occurred"
+                                        <Form.Control className='text-input' type="text" placeholder="Enter location of  incident"
                                                       value={this.state.location}
                                                       onChange={e => this.setState({location: e.target.value})}
                                         />
